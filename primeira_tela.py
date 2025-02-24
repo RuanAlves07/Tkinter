@@ -13,12 +13,12 @@ i.title ("Programa Financeiro")
 
 # Propriedade que altera o tamanho da janela (980x720) e distancia da direita e topo da tela (250x30)
 
-i.geometry("980x720+250x30")
+i.geometry("980x720+250+30")
 
 # Propriedade graficas, cor de fundo da tela (BG) ou (background)
 # Não pode passar o i com ponto! Deve ser i[]
 
-i["bg"] = "yellow"
+i["bg"] = "blue"
 
 #Cria Icone na janela, você deve ter a imagem no mesmo local do código.
 
